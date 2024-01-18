@@ -96,7 +96,7 @@ params:
             - name: github
               url: "https://github.com/alexserra98"
             - name: linkedin
-              url: "https://it.linkedin.com/in/alessandro-pietro-serra-b489531a3?trk=public_profile_project_contributor-image"
+              url: "https://linkedin.com/in/alessandro-pietro-serra-b489531a3"
 
 
     homeInfoParams:
@@ -113,7 +113,7 @@ params:
         - name: github
           url: "https://github.com/alexserra98"
         - name: linkedin
-          url: "https://it.linkedin.com/in/alessandro-pietro-serra-b489531a3?trk=public_profile_project_contributor-image"
+          url: "https://linkedin.com/in/alessandro-pietro-serra-b489531a3"
         - name: RSS
           url: "/posts/index.xml"
 
