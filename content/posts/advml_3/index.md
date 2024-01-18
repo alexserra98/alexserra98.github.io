@@ -4,7 +4,7 @@ date: 2023-11-06T11:30:03+00:00
 mathjax: true
 weight: 1
 editPost:
-    URL: "https://alexserra98.github.io/alexserra98/posts/advml_3/"
+    URL: "https://alexserra98.github.io/posts/advml_3/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
@@ -341,17 +341,15 @@ Since we have the full orbits for each face in the training set the HW modules c
 If we visualize the weights i.e. the prinicipal components found by the Oja's flow we get the following interesting result:
 {{< figure src="images/signature.png" caption="Mirror-symmetric orientation tuning of the raw pixels-based model. hxq;wii2 is shown as a function of the orientation of xq. Here, each curve represents a different PC. Below are shown the PCs wki visualized as images. They are either symmetric (even) or antisymmetric (odd) about the vertical midline. Source: Leibo et al." >}} 
 
-<br>
-
 ## Grid Cells
-
 Grid cells are a type of neuron found in the brains of many animals, including humans, that are crucial for spatial navigation and understanding the environment. These cells are primarily located in the entorhinal cortex, which is a region of the brain closely connected to the hippocampus, an area known for its role in memory and navigation.
 Grid cells derive their name from the unique pattern they create when an animal is navigating through space.  they create when an animal is navigating through space. Each grid cell activates in multiple locations that form a hexagonal grid pattern across the environment. This pattern is thought to represent a coordinate system or a kind of mental map, helping the brain to understand position and distance.
 Grid cells are used  to understand the location in space and navigate through the environment. They work in conjunction with other types of cells, such as place cells and head direction cells, to form a comprehensive navigation system. While place cells fire when an animal is in a specific location, and head direction cells respond to the direction the animal is facing, grid cells provide a more generalized and scalable map of space.
 The grids formed by these cells can vary in scale and orientation. Some grid cells create tighter, smaller hexagons, while others form larger ones. This range of scales might help animals gauge distances over both short and long ranges.
 Besides spatial navigation, grid cells may also play a role in memory and planning. Their spatial mapping might be involved in imagining or remembering spaces, as well as planning movements through space. It has been showed that grid cells are activated when manipulating some mental image along different dimension, for example picture a bird and change mentally the dimension of the legs and the wings-. A possible interpretation of this phenomena is that our brain embed some tasks in an abstract space and use grid cells to perform computation.
-For more about this topic: [How Your Brain Organizes Information](https://www.youtube.com/watch?v=9qOaII_PzGY&t=1316s&ab_channel=ArtemKirsanov) 
-### Grid Cells and Optimality
+For more about this topic: [How Your Brain Organizes Information](https://www.youtube.com/watch?v=9qOaII_PzGY&t=1316s&ab_channel=ArtemKirsanov)
+
+## Grid Cells and Optimality
 We want to bridge the emergence of grid cells to a principle of optimality
 Let's suppose that a mouse is moving in a box that contains some objects. As a result of his movement he sees object `$o$` translating and those translations encode the information about his position.
 {{<figure align=center src="images/mouse.png" caption="From the perspective of the visual cortex of the mouse the is the objects that are moving">}}
@@ -367,8 +365,8 @@ It's a known fact that stationary matrices are diagonalized by Fourier, thus acc
 `$$
 w=e^{i k x}, \quad k, x \in \mathbb{R}^2
 $$`
-<br> **The neurons are approximately doing the fourier transform!** <br>
-According to this intepretation the simple cells are encoding some information of position in the phase $e^{i k y}$, then the complex cell will aggregate these output and hopefully encode the precise location. How many different frequencies (and thus different classes of simple cells) do we need to encode the postion with high precision?
+**The neurons are approximately doing the fourier transform!** <br>
+According to this intepretation the simple cells are encoding some information of position in the phase `$e^{i k y}$`, then the complex cell will aggregate these output and hopefully encode the precise location. How many different frequencies (and thus different classes of simple cells) do we need to encode the postion with high precision?
 <br> 
 We consider this simple-complex module as a statistics estimator of the location and we exploit the Cramer-Rao theorem to find the number of frequencies the minimize the variance.
 Surpsingly the solution is `$K=3$` frequencies equally spaced, the following picture will show the effect of this result:

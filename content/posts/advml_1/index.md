@@ -4,7 +4,7 @@ date: 2023-09-18T11:30:03+00:00
 weight: 1
 mathjax: true
 editPost:
-    URL: "https://alexserra98.github.io/alexserra98/posts/advml_1/"
+    URL: "https://alexserra98.github.io/posts/advml_1/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
