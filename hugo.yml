@@ -60,7 +60,7 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description:  "My notebook on technical stuff, IT security, cryptography and anything else I am interested in."
+    description:  "My notebook on technical stuff, machine learning, CS and anything else I am interested in."
     author: Alessandro Serra
     # author: ["Me", "You"] # multiple authors
 
@@ -82,7 +82,7 @@ params:
     profileMode:
         enabled: true
         title: Alex's Log
-        subtitle: "Hi this is Alex 👋, I'm a grad student in Data Science and Scientific Computing at University of Trieste"
+        subtitle: "Hi this is Alex 👋, I'm a master student in Data Science and Scientific Computing at University of Trieste"
         imageUrl: "images/blog.png"
         imageTitle: my image
         imageWidth: 250
@@ -102,8 +102,7 @@ params:
     homeInfoParams:
         Title: "Alex's Log"
         Content: >
-            Welcome to Alex's Log.
-            - This page is in construction! 🚧   
+            Welcome to Alex's Log.  
     
     socialIcons:
         - name: email
