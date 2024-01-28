@@ -18,6 +18,7 @@ Instead of directly implementing DQN using CNNs, we progressively build up diffe
 The code for all the trials we made is available, along with one simple version of Snake game, which can be played using all the models trained, from standard tabular methods to DQN.
 
 - **Key Technologies**: Python, Pytorch, OpenAI Gym
+{{<figure src="images/snake.gif" caption="The agent finally learns to play the game" width="400" height="400">}}<br>
 ### Project Details
 This worked serves as unified enviroment to train and test different models on the Snake game. The game is implemented using OpenAI Gym, which provides a simple interface to interact with the game. The code is structured in the following way:
 - *game* folder: it contains the code to load a pretrained model and play;

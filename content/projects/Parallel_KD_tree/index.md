@@ -12,7 +12,7 @@ editPost:
 ### Overview
 Parallel implementation of k-d tree using MPI, OpenMP and C++17
 - **Key Technologies**: C++, MPI, OpenMP, Bash
-
+{{<figure  src="images/kdtree.png" caption="Source: DALLE"  width="400" height="400">}}<br>
 ### Project Details
 A K-dimensional tree is a data structure widely used for partitioning and organizing
 points in a k-dimensional space, they’re involved in many different applications
