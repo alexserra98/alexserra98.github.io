@@ -14,11 +14,20 @@
   line-height:2.5rem;
   margin-right:1rem}
 
-@media (prefers-color-scheme: dark) { .social-icons a {color: #3eb7f0 !important; }}
+body[data-theme="dark"] .social-icons a {color: #3eb7f0 !important; }
 
 .social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:white;
     color:black;
     transform: scale(1.2)}
+
+.theme-toggle-btn {
+  color: #043361 !important;
+}
+
+body[data-theme="dark"] .theme-toggle-btn {
+  color: #3eb7f0 !important;
+}
+
     /*
     .social-icons a:after {
         content: '';
@@ -35,7 +44,7 @@
       }
      */
 
-@media (prefers-color-scheme: dark) {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
+body[data-theme="dark"] {.social-icons a:last-child{margin-right:0}.social-icons a:hover{background-color:#20212b;
     color:black;
     transform: scale(1.2)} 
     /*
@@ -158,11 +167,9 @@ papertitle {
     font-size: 100%;
   }
 
-@media (prefers-color-scheme: dark) {
-    body {
+body[data-theme="dark"] {
         background-color: #20212b;
         color: #dadbdf;
-    }
 
     autocolor{
       color:#dadbdf;
@@ -216,16 +223,16 @@ papertitle {
 
       .image.avatar img {
         border-radius: 100%;
-        width: 45%;
-        padding: 20px;
+        width: 80%;
+        padding: 5px;
         // border: 1px solid #ddd;
         // padding: 3px;
         // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
       }
 
-    #header .image.avatar {
+    header .image.avatar {
       margin: 0 0 1em 0;
-      width: 8.00em;
+      width: 100%;
     }
 
 h3, h4, h5, h6 {
@@ -247,7 +254,7 @@ h2 {
   font-size: 157%;
 }
 
-@media (prefers-color-scheme: dark) {
+body[data-theme="dark"] {
   h1, h3, h4, h5, h6 {
     color:rgb(62, 183, 240);
   }
@@ -278,7 +285,7 @@ a:hover {
   color:#069;
 }
 
-@media (prefers-color-scheme: dark) {
+body[data-theme="dark"] {
   a {
     color:rgb(62, 183, 240);
   }
@@ -341,7 +348,7 @@ th {
   color:#444;
 }
 
-@media (prefers-color-scheme: dark) {
+body[data-theme="dark"] {
   th {
     color:rgb(62, 183, 240);
   }
@@ -414,7 +421,7 @@ strong {
   font-weight:500;
 }
 
-@media (prefers-color-scheme: dark) {
+body[data-theme="dark"] {
   strong {
     color:#eeeff0;
   }
@@ -500,8 +507,8 @@ footer {
 
    .image.avatar img {
         border-radius: 100%;
-        width: 117px;
-        padding:20px;
+        width: 150px;
+        padding:5px;
       }
   #head1o2 {
     visibility: hidden;
@@ -556,8 +563,8 @@ footer {
 
   .image.avatar img {
       border-radius: 100%;
-      width: 95px;
-      padding:20px;
+      width: 120px;
+      padding:5px;
   }
   #head1o2 {
     visibility: hidden;

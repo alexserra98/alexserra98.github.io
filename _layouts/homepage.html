@@ -36,6 +36,11 @@
 
   </head>
   <body>
+    <div style="position: fixed; top: 20px; right: 20px; z-index: 1000;">
+        <a style="cursor: pointer; font-size: 1.5rem;" id="theme-toggle" title="Toggle Theme" class="theme-toggle-btn">
+          <i class="fas fa-moon" id="theme-toggle-icon"></i>
+        </a>
+    </div>
     <div class="wrapper">
       <header>
         
@@ -50,7 +55,11 @@
         <br>
         {% endif %}
         {% if site.affiliation %}
+        {% if site.affiliation_link %}
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        {% else %}
+        <autocolor>{{ site.affiliation }}</autocolor>
+        {% endif %}
         <br>
         {% endif %}
         {% if site.email %}
@@ -89,6 +98,7 @@
           <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
+        
         </div>
         <br>
 
@@ -113,6 +123,7 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/theme-toggle.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
