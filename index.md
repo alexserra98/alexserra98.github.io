@@ -4,9 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student in [Theoretical Data Science and Scientific Computing](https://datascience.sissa.it/taught-phd-modules) at SISSA and at Laboratory of Data Engineering (LADE) at [AREA Science Park](https://www.areasciencepark.it/en/research-infrastructures/data-engineering-lade/) under the supervision of [Alberto Cazzaniga](https://area-rit.gitlab.io/lade/alberto.cazzaniga/) and [Alessandro Laio](https://people.sissa.it/~laio/). I am broadly interested in the interpretability of transformer models and its applications in [AI safety](https://www.anthropic.com/news/core-views-on-ai-safety#:~:text=Alignment%20Science%3A,and%20alignment%20capabilities.). More specifically I'm interested in the intersection of causally insipired methods such as mechanistic interpretability and geometrical tools applied to unsupervised learning.
+I am a Ph.D. student in [Theoretical Data Science and Scientific Computing](https://datascience.sissa.it/taught-phd-modules) at SISSA and at Laboratory of Data Engineering (LADE) at [AREA Science Park](https://www.areasciencepark.it/en/research-infrastructures/data-engineering-lade/) under the supervision of [Alberto Cazzaniga](https://area-rit.gitlab.io/lade/alberto.cazzaniga/) and [Alessandro Laio](https://people.sissa.it/~laio/). Broadly, I am interested in the interpretability of transformer models and their applications in [AI safety](https://www.anthropic.com/news/core-views-on-ai-safety#:~:text=Alignment%20Science%3A,and%20alignment%20capabilities.). More specifically, my research focuses on the intersection of causally inspired methods (such as mechanistic interpretability) and geometrical tools applied to unsupervised learning.
 I’m currently living in Trieste, a beautiful city on the sea in the north-east of Italy. 
-My email is aserra[at]sissa.it.
+You can reach me at: aserra[at]sissa.it.
 
 
 ## News
