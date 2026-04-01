@@ -105,6 +105,13 @@
       </header>
       <section>
 
+      <nav class="page-links" aria-label="Site sections">
+        <a class="page-link page-link-active" href="{{ "/" | relative_url }}">About</a>
+        {% if site.digital_garden_link %}
+        <a class="page-link" href="{{ site.digital_garden_link }}">Digital Garden <span class="page-link-indicator" aria-hidden="true">&#8599;</span></a>
+        {% endif %}
+      </nav>
+
       {{ content }}
 
       {% include publications.html %}
